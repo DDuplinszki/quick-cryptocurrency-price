@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: roboto;
+    background: linear-gradient(90deg, rgba(100,0,250,1) 0%, rgba(125,0,125,1) 50%, rgba(0,200,250,1) 100%);
+    color: white;
+}
+
+* {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    margin-top: 1em;
+    height: 4em;
+    width: 10%;
+    border-radius: 10px;
+    background-color: #4c8bf5;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+#crypto {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 15%;
+    max-width: 100%;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    text-align: left;
+}
+
+#date-selector {
+    font-family: roboto;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 10%;
+    max-width: 100%;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    margin-top: 1em;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+@media (max-width: 992px) {
+    #crypto {
+        width: 40vw;
+    }
+    #date-selector {
+        width: 40vw;
+    }
+    #start {
+        width: 40vw;
+    }
+}

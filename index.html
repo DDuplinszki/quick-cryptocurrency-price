@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Quick Cryptocurrency Data</h1>
+    <p>Choose a currency!</p>
+    <label for="crypto"></label>
+
+    <select name="crypto" id="crypto">
+      <option value="akropolis">Akropolis (AKRO)</option>
+      <option value="alpha-finance">Alpha Finance (ALPHA)</option>
+      <option value="apy-finance">APY</option>
+      <option value="bitcoin">Bitcoin (BTC)</option>
+      <option value="cardano">Cardano (ADA)</option>
+      <option value="celer-network">Celer (CELR)</option>
+      <option value="chainx">ChainX (PCX)</option>
+      <option value="crypto-com-chain">Crypto.com Coin (CRO)</option>
+      <option value="ecomi">Ecomi (OMI)</option>
+      <option value="eos">EOS</option>
+      <option value="ethereum">Ethereum</option>
+      <option value="gatechain-token">Gatetoken (GT)</option>
+      <option value="hedera-hashgraph">Hedera Hashgraph (HBAR)</option>
+      <option value="hex">HEX</option>
+      <option value="iota">IOTA</option>
+      <option value="litentry">Litentry (LIT)</option>
+      <option value="lto-network">LTO</option>
+      <option value="mandala-exchange-token">Mandala Exchange Token (MDX)</option>
+      <option value="nano">NANO</option>
+      <option value="nervos-network">Nervos Network (CKB)</option>
+      <option value="ocean-protocol">OCEAN</option>
+      <option value="polkadot">Polkadot (DOT)</option>
+      <option value="polkastarter">Polkastarter (POLS)</option>
+      <option value="polkaswap">Polkaswap (PSWAP)</option>
+      <option value="matic-network">Polygon (MATIC)</option>
+      <option value="qiswap">Qtumswap (QI)</option>
+      <option value="ramp">RAMP</option>
+      <option value="ravencoin">Ravencoin (RVN)</option>
+      <option value="reef-finance">Reef</option>
+      <option value="ripple">Ripple (XRP)</option>
+      <option value="safepal">SafePal (SFP)</option>
+      <option value="sparkpoint">Sparkpoint (SRK)</option>
+      <option value="blockstack">Stacks (STX)</option>
+      <option value="stellar">Stellar (XLM)</option>
+      <option value="swipe">Swipe (SXP)</option>
+      <option value="tezos">Tezos (XTZ)</option>
+      <option value="tron">Tron (TRX)</option>
+      <option value="vechain">Vechain (VET)</option>
+      <option value="waifu-token">Waifu Token (WAIF)</option>
+      <option value="zilliqa">Zilliqa (ZIL)</option>
+
+    </select> 
+    <p>Choose a date!</p>
+    <p>It is going to return UTC 00:00 result. Here's the current UTC time for the sake of punctuality:</p>
+
+    <div id="clock">
+        <iframe src="https://free.timeanddate.com/clock/i7t9opu5/n1440/fs18/fcfff/tct/pct/ftb/pl0/pr0/pt10/pb10/tt0/ta1" frameborder="0" width="500" height="60" allowtransparency="true"></iframe>
+    </div>
+
+
+
+
+    <br>
+    <label for="date-selector"></label>
+
+    <input type="date" id="date-selector" name="calendar">
+    <br>
+    <button id="start">Get the data!</button>
+    <br>
+    <img id="logo" src="">
+    <p id='result-paragraph'></p>
+</body>
+    <script src="script.js"></script>
+</html>
